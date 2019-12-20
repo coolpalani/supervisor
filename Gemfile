@@ -18,7 +18,7 @@ source 'https://rubygems.org'
 
 gem 'test-kitchen'
 gem 'berkshelf'
-gem 'chef'
+gem 'chef', '>= 11.12.8'
 gem 'kitchen-vagrant'
 gem 'vagrant-wrapper'
 gem 'foodcritic', '>= 3.0.3'
